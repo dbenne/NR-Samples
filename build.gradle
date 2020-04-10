@@ -40,7 +40,10 @@ dependencies {
 
     // Java CfEnv
     implementation "io.pivotal.cfenv:java-cfenv-boot:${javaCfEnvVersion}"
+
+    // New Relic Logging Dependency
     implementation "com.newrelic.logging:logback:1.1"
+    
     // JPA Persistence
     runtimeOnly "org.apache.commons:commons-pool2:2.6.0"
     runtimeOnly "com.h2database:h2"
